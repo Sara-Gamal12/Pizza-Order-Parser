@@ -52,7 +52,7 @@ pip install --upgrade tensorflow pandas numpy
 
 ## 🧱Modules<a id="modules">
 
-###  Preprocessing and Feature Extraction <a id="preprocessing">
+### 🛠️ Preprocessing and Feature Extraction <a id="preprocessing">
 1. Cosine Similarity with Sentence Embeddings:
     Compute sentence embeddings for each sentence.
     Add a sentence to the training set only if its cosine similarity with all previously added sentences is below a defined threshold, ensuring uniqueness.
@@ -65,14 +65,14 @@ pip install --upgrade tensorflow pandas numpy
     Identify and select distinct words and associated tags for the training data.
 5. BIO Tagging Format:
  Use the BIO tagging scheme, labeling entities with 'B' (beginning) and 'I' (inside) to mark entity boundaries.
-###  Architecture <a id="Architecture">
+### 🧠 Architecture <a id="Architecture">
 <img src="https://github.com/user-attachments/assets/1c677741-bf3d-4d90-b1b0-ba06e7cdf11b" width="500">
 
- #### Two Named Entity Recognition NER Models:
+ #### 🤖 Two Named Entity Recognition NER Models:
 1. The first model predicts the topping-style entities.
 2. The second model predicts the PIZZAORDER and DRINKORDER entities.
 3. The outputs of both NER models are then combined and converted into a structured JSON format for further processing
-#### Layers
+#### 📚 Layers
 1. Embedding Layer: Each word in the sentence is mapped to a dense vector.
 2. Bidirectional LSTM:This layer reads the input sequence in both forward and reverse directions, helping the model capture dependencies.
 
