@@ -10,12 +10,7 @@
 - <a href ="#contributors">Contributors</a>
 
 ## 🔍Overview<a id="Overview">
- The goal of this project is to develop sequence models that can accurately identify key
- items in complex food ordering requests, focusing specifically on pizza customization.
- By organizing natural language into actionable data, this project tackles real-world NLP
- challenges where specialized entities (such as "toppings," "pizza sizes," and "crust
- types") require precise extraction. This enables a more robust fulfillment of orders in
- online food applications
+This project aims to develop sequence models for accurately extracting key elements from complex pizza orders, such as toppings, sizes, and crust types. By converting natural language into structured data, it enhances order fulfillment in online food applications.
 
 ## 💻Get Started<a id="started">
 
